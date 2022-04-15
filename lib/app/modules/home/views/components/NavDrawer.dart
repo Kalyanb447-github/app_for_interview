@@ -26,13 +26,11 @@ class NavDrawer extends GetView<HomeController> {
                   ),
                   Expanded(
                     flex: 6,
-                    child: Obx(
-                      () => Text(
-                        'Hello',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                        ),
+                    child: Text(
+                      'Hello',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
                       ),
                     ),
                   ),

@@ -25,33 +25,14 @@ class HomeView extends GetView<HomeController> {
           title: Text('Welcome'),
         ),
         drawer: NavDrawer(),
-
         body: Center(
           child: FloatingActionButton.extended(
             onPressed: () {
-              // controller.changeDiceFace();
-
               Get.to(HomePage(cameras));
             },
             label: Text('Scan'),
           ),
         ),
-        // body: GetX<HomeController>(
-        //   init: HomeController(),
-        //   builder: (_) {
-        //     return Center(
-        //       child: Column(
-        //         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        //         children: [],
-        //       ),
-        //     );
-        //   },
-        // ),
-        // floatingActionButton: FloatingActionButton.extended(
-        //     onPressed: () {
-        //       // controller.changeDiceFace();
-        //     },
-        //     label: Text('Role The Dice')),
       ),
     );
   }
