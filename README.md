@@ -1,31 +1,10 @@
 # app_for_interview
 
-This is flutter Game
+This is flutter App given by the interviewer
 
 ## Getting Started
-
-This is a Simple Dice game 
-
-user can login 
-
-
-## About the Game
-User has 10 chance to role the dice 
-
-Geme count the the dices
-
-If user got heghest dices 
-
-it will show a dialog
-
-Game can play ofline 
-
-it will store the session 
-
-I have implemented flavor for dev and production
-
-I have user GetX archetecture for the business logic
-
+user can login with the firebase
+user can detect object in the realtime
 
 
 <p float="left">
