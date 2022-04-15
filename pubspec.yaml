@@ -1,0 +1,40 @@
+name: app_for_interview
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  # sdk: ">=2.16.1 <3.0.0"
+  sdk: ">=2.11.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  get_storage: any
+  # shared_preferences: any
+  firebase_core: any
+  firebase_auth: any
+  flutter_flavor: any
+  # camera: any
+  # tflite: any
+  camera: 0.5.7+4
+
+  tflite: 1.0.4
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - assets/yolov2_tiny.tflite
+    - assets/yolov2_tiny.txt
+    - assets/ssd_mobilenet.tflite
+    - assets/ssd_mobilenet.txt
+    - assets/mobilenet_v1_1.0_224.tflite
+    - assets/mobilenet_v1_1.0_224.txt
+    - assets/posenet_mv1_075_float_from_checkpoints.tflite
