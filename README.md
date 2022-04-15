@@ -32,9 +32,9 @@ I have user GetX archetecture for the business logic
 <img src="screenshots/0.png" width="150"/>
 <img src="screenshots/1.png" width="150"/>
 <img src="screenshots/2.png" width="150"/>
-<img src="screenshots/3.png" width="150"/>
-<img src="screenshots/4.png" width="150"/>
-<img src="screenshots/5.png" width="150"/>
+<img src="screenshots/3.jpeg" width="150"/>
+<img src="screenshots/4.jpeg" width="150"/>
+<img src="screenshots/5.jpeg" width="150"/>
 </p>
 
 
